@@ -1,6 +1,6 @@
-var display = document.getElementById('display');
-var buttons = document.querySelectorAll('.key')
-var equals = document.querySelector('equals')
+const display = document.getElementById('display');
+const buttons = document.querySelectorAll('.key')
+const equals = document.querySelector('equals')
 
 
 function numDisplay(num){
