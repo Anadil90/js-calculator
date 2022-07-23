@@ -1,0 +1,59 @@
+#calcBody{
+	border: 2px solid yellow;
+	height: 330px;
+	width: 270px;
+	margin: 24px auto;
+	border-radius: 5px;
+	background: rgba(73, 151, 131, 0.61);
+
+}
+
+h2{
+	text-align: center;
+	margin-top: 35px;
+	color: rgba(242, 247, 181, 0.76);
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+
+}
+
+body{
+	background: url(https://images.unsplash.com/photo-1510148199876-8a856ee41d42?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+	
+}
+
+
+#display{
+	background: rgba(0, 224, 165, 0.61);
+	height: 2.56rem;
+	width: 75%;
+	border: 1px solid beige;
+	margin-top: 24px ;
+	margin-left: 13.5px;
+	text-align: right;
+	color: black;
+	font-size: 	1.5rem;
+	padding-right: 13px;
+	padding-left: 13px;
+}
+
+.key{
+	width: 55px;
+	height: 45px;
+	background: rgba(0, 38, 255, 0.51);
+	color: white;
+}
+
+#btns{
+	margin-left: 13.65px;
+	margin-top: 9px;
+	
+}
+
+#equals{
+	width: 55px;
+	height: 45px;
+	background: rgba(0, 38, 255, 0.51);
+	color: white;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript calculator</title>
+	<link rel="stylesheet" type="text/css" href="javacalc.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Work+Sans" rel="stylesheet">
+
+
+</head>
+<body>
+	<h2>javascript calculator</h2>
+
+
+	<div id="calcBody">
+		<input type="text" maxlength="15" id="display"  disabled>
+		<br>
+		<!-- keys -->
+		<section id="btns">
+        <input type="button" value="C" class="key" onclick= 'numDisplay("c")'>
+        <input type="button" value="CE" class="key" onclick= 'numDisplay("ce")'>
+        <input type="button" value="<" class="key" onclick= 'back("<")'>
+        <input type="button" value="÷" class="key" onclick= 'numDisplay("/")'>
+        <br>
+        <input type="button" value="7" class="key" onclick= 'numDisplay("7")'>
+        <input type="button" value="8" class="key" onclick= 'numDisplay("8")'>
+        <input type="button" value="9" class="key" onclick= 'numDisplay("9")'>
+        <input type="button" value="X" class="key" onclick= 'numDisplay("*")'>
+        <br>
+        <input type="button" value="4" class="key" onclick= 'numDisplay("4")'>
+        <input type="button" value="5" class="key" onclick= 'numDisplay("5")'>
+        <input type="button" value="6" class="key" onclick= 'numDisplay("6")'>
+        <input type="button" value="-" class="key" onclick= 'numDisplay("-")'>
+        <br>
+        <input type="button" value="1" class="key" onclick= 'numDisplay("1")'>
+        <input type="button" value="2" class="key" onclick= 'numDisplay("2")'>
+        <input type="button" value="3" class="key" onclick= 'numDisplay("3")'>
+        <input type="button" value="+" class="key" onclick= 'numDisplay("+")'>
+        <br>
+        <input type="button" value="0" class="key" onclick= 'numDisplay("0")'>
+        <input type="button" value="." class="key" onclick= 'numDisplay(".")'>
+        <input type="button" value="=" id="equals" onclick= 'ans()'>
+        <input type="button" value="√" class="key" onclick= 'root(" √")'>
+
+        </section>
+        <!-- keys -->
+        
+	</div>
+	<script src="javacalc.js"></script>
+</body>
+</html>
